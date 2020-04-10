@@ -125,6 +125,7 @@ function createMarker(latlng, name, address, openStatusText, phoneNumber, index)
     var marker = new google.maps.Marker({
         map: map,
         position: latlng,
+        animation: google.maps.Animation.DROP,
         label : index.toString(),
         icon: {
             scaledSize: new google.maps.Size(70,70),
