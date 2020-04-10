@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://kit.fontawesome.com/d163c02a33.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="title">Store Locator</div>
+        <div class="search-container">
+            <div class="search">
+                <input id="zip-code-input" type="text" placeholder="Enter zip">
+                <i class="fas fa-search" id="search" onclick="searchStore()"></i>
+            </div>
+        </div>
+
+        <div class="stores-list-container">
+            <div class="stores-list">
+                <!--store-card here-->
+            </div>
+        </div>
+
+        <div id="map"></div>
+
+        <script src="js/store-data.js"></script>
+        <script src="js/index.js"></script>
+        <script  async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcwazb-T7zvceyA4VLWVB-eXvwj-XEUIA&callback=initMap">
+        </script>
+    </body>
+</html>
