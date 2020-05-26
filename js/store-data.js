@@ -5294,3 +5294,4 @@ let stores = [{
     }],
     "slug": "hollywood-vine-6290-west-hollywood-blvd-hollywood-ca-900285309-us"
 }]
+console.log(stores)

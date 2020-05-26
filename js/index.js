@@ -5,7 +5,7 @@ var infoWindow;
 function initMap() {
     var losAngeles = {
         lat: 34.063380,
-        lng: -118.358080        // lat:  40.177200, lng:  44.503490
+        lng: -118.358080
     };
 
     map = new google.maps.Map(document.getElementById('map'), {
